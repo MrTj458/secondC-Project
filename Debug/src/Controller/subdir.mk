@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/Controller/Runner.cpp 
+../src/Controller/SecondController.cpp \
+../src/Controller/SecondRunner.cpp 
 
 OBJS += \
-./src/Controller/Runner.o 
+./src/Controller/SecondController.o \
+./src/Controller/SecondRunner.o 
 
 CPP_DEPS += \
-./src/Controller/Runner.d 
+./src/Controller/SecondController.d \
+./src/Controller/SecondRunner.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
